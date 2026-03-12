@@ -80,7 +80,7 @@
             &kp F14   &kp F15    &kp F16    &kp F17    &kp F18        &kp F11     &kp F12     &kp F24     &kp F9     &kp F10
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  x       │    |     │
-            &kp BSPC   &kp TAB    &kp F21    &kp LCTRL   &kp F13        &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &kp PIPE
+            &kp BSPC   &kp TAB    &kp F21    &kp LCTRL   &kp LCTRL        &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &kp PIPE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
