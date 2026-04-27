@@ -17,11 +17,12 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 # yes.
+
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano_v2@nrf52840
     shield: cradio_left
-  - board: nice_nano_v2
+  - board: nice_nano_v2@nrf52840
     shield: cradio_right
-  - board: nice_nano
-    shield: settings_reset
+#  - board: nice_nano
+#    shield: settings_reset
