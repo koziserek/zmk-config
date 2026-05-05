@@ -8,6 +8,7 @@
 // Home row mods macro
 //#define HRML(k1,k2,k3,k4) &ht k1  &ht LALT k2  &ht LCTRL k3  &ht LGUI k4
 //#define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RCTRL k2  &ht RALT k3  &ht RSHFT k4
+#define HY(key) LS(LA(LC(LG(key))))
 
 / {
     behaviors {
@@ -79,7 +80,7 @@
             &kp F14   &kp F15    &kp F16    &kp F17    &kp F18        &kp F19     &kp F20     &kp F21    &kp F22     &kp F23
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  .       │    |     │
-            &kp BSPC   &kp TAB    &kp F21    &kp LCTRL   &kp LCTRL    &kp AMPS   &kp UNDER  &kp PLUS   &trans   &kp PIPE
+            &kp BSPC   &kp TAB    &kp F21    &kp LCTRL   &sl lsl    &kp AMPS   &kp UNDER  &kp PLUS   &trans   &kp PIPE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &kp LSHIFT   &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -102,5 +103,24 @@
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
+
+        lsl {
+            bindings = <
+        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
+            &kp HY(Q)      &kp HY(W)      &kp HY(E)      &kp HY(R)      &kp HY(T)          &kp HY(Y)      &kp HY(U)      &kp HY(I)      &kp HY(O)      &kp P
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ ; :      │
+            &kp HY(A)      &kp HY(S)      &kp HY(D)      &kp HY(F)      &kp HY(G)          &kp HY(H)      &kp HY(J)      &kp HY(K)      &kp HY(L)      &ht LGUI SEMI
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
+            &kp HY(Z)      &kp HY(X)      &kp HY(C)      &kp HY(V)      &kp HY(B)          &kp HY(N)      &kp M      &kp COMMA &ht RCTRL DOT &ht RALT FSLH
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                            &ht RCTRL ENTER &lt 2 ESC  &lt 1 BSPC    &ht RSHIFT SPACE
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+            >;
+        };
+
+
     };
 };
