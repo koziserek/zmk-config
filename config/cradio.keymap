@@ -45,7 +45,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA &ht RCTRL DOT &ht RALT FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &ht RCTRL ENTER &lt 2 ESC  &lt 1 BSPC    &ht RSHIFT SPACE
+                                            &lt 2 ESC &ht LGUI SPACE    &lt 1 BSPC  &ht RSHIFT ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -59,10 +59,10 @@
         //│    {     │  }       │  [       │  ]       │   ~      │   │   =      │  (       │  )       │  DEL     │  "       │
             &kp LBRC    &kp RBRC   &kp LBKT   &kp RBKT   &kp TILDE     &kp EQUAL  &kp LPAR   &kp RPAR   &kp DEL    &kp DQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│1         │  2       │  3       │  4       │ 5        │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  '"      │
+        //│ 1?       │  2?      │  3?      │  4?      │ 5?       │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  '"      │
             &kp N1    &kp N2     &kp N3     &kp N4     &kp N5         &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ x .      │  x       │  x       │  x       │  x       │   │     -    │    +     │    _     │    `     │  \       │
+        //│ 6?       │  7?      │  8?      │  9?      │  0?      │   │     -    │    +     │    _     │    `     │  \       │
            &kp N6     &kp N7     &kp N8     &kp N9     &kp N0         &kp MINUS   &kp PLUS  &kp UNDER   &kp GRAVE   &kp BSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans      &trans        &trans     &trans
@@ -93,9 +93,8 @@
         //│          │          │          │          │          │   │          │          │          │          │          │
             &kp F1    &kp F2     &kp F3     &kp F4     &kp F5         &kp F6     &kp F7     &kp F8     &kp F9     &kp F10
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │          │   │    ←     │   ↓      │          │    →     │   vol+   │
-        // &kp F11      &kp F12     &kp F12    &trans     &trans         &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &kp C_VOL_UP
-         &kp F11      &kp F12     &kp F12    &kp F13     &kp F24       &kp F19     &kp F20     &kp F21    &kp F22    &trans
+        //│          │          │          │          │          │   │    ←     │   ↓      │          │    →     │   noth?  │
+            &kp F11    &kp F12     &kp F12    &kp F13     &kp F24       &kp F19     &kp F20     &kp F21    &kp F22    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
           &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4         &trans &trans  &trans  &trans   &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
