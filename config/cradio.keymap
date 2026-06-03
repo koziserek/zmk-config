@@ -27,7 +27,7 @@
         rightThumb {
             bindings = <
 &kp LBRC                              &kp RBRC  &kp LBKT  &kp RBKT       &kp TILDE    &kp EQUAL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL    &kp DOUBLE_QUOTES
-&kp F19                               &kp F20   &kp F24   &kp F22        &kp F23      &kp LEFT_ARROW  &kp DOWN              &kp UP                 &kp RIGHT  &kp LS(SQT)
+&kp F19                               &kp F20   &kp F24   &kp F22        &kp F23      &kp LEFT_ARROW  &kp DOWN              &kp UP                 &kp RIGHT  &kp SQT
 &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp HOME  &kp END   &to 4          &tog 4       &kp KP_MINUS    &kp KP_PLUS           &kp UNDERSCORE         &kp GRAVE  &kp BSLH
                                                           &kp LG(ENTER)  &trans       &trans          &caps_word
             >;
@@ -36,8 +36,8 @@
         bothThumbs {
             bindings = <
 &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6       &kp F7      &kp F8  &kp F9  &kp F10
-&kp F11       &kp F12       &trans        &trans        &trans          &trans       &trans      &trans  &trans  &kp PRINTSCREEN
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bootloader  &trans      &trans  &trans  &kp SYSREQ
+&kp F11       &kp F12       &trans        &trans        &bootloader     &bootloader  &trans      &trans  &trans  &kp PRINTSCREEN
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans       &trans      &trans  &trans  &kp SYSREQ
                                           &sys_reset    &trans          &trans       &bt BT_CLR
             >;
         };
