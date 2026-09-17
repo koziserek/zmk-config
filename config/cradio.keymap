@@ -40,7 +40,7 @@
                 &kp RET>;
         };
 
-        m_sga: m_q1 {
+        m_q1: m_q1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -50,7 +50,7 @@
                 &kp N1 &kp N4 &kp N8 &kp RET>;
         };
 
-        m_sga: m_w1 {
+        m_w1: m_w1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -60,7 +60,7 @@
                 &kp N1 &kp N4 &kp N1 &kp N8 &kp RET>;
         };
 
-        m_sga: m_e1 {
+        m_e1: m_e1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -70,7 +70,7 @@
                 &kp N5 &kp N8 &kp RET>;
         };
 
-        m_sga: m_r1 {
+        m_r1: m_r1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -80,7 +80,7 @@
                 &kp N1 &kp N4 &kp N7 &kp RET>;
         };
 
-        m_sga: m_t1 {
+        m_t1: m_t1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -90,7 +90,7 @@
                 &kp N1 &kp N2 &kp N2 &kp N5 &kp RET;
         };
 
-        m_sga: m_a1 {
+        m_a1: m_a1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -100,7 +100,7 @@
                 &kp N3 &kp N0 &kp N8 &kp RET>;
         };
 
-        m_sga: m_a2 {
+        m_a2: m_a2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -111,7 +111,7 @@
         };
 
 
-        m_sga: m_s1 {
+        m_s1: m_s1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -121,7 +121,7 @@
                  &kp N5 &kp N9 &kp RET>;
         };
 
-        m_sga: m_d1 {
+        m_d1: m_d1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -131,7 +131,7 @@
                 &kp N2 &kp N6 &kp N1 &kp RET>;
         };
 
-        m_sga: m_f1 {
+        m_f1: m_f1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -141,7 +141,7 @@
                 &kp N1 &kp N4 &kp N4 &kp N4  &kp RET>;
         };
 
-        m_sga: m_g1 {
+       m_g1: m_g1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -152,7 +152,7 @@
         };
 
 
-        m_sga: m_z1 {
+        m_z1: m_z1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -172,7 +172,7 @@
                 &kp N3 &kp N6 &kp N5 &kp N8 &kp RET>;
         };
 
-        m_sga: m_c1 {
+        m_c1: m_c1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -182,7 +182,7 @@
                 &kp N2 &kp N8 &kp N1 &kp N8 &kp RET>;
         };
 
-        m_sga: m_v1 {
+        m_v1: m_v1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -192,7 +192,7 @@
                 &kp N1 &kp N3 &kp N5 &kp N4 &kp RET>;
         };
 
-        m_sga: m_b1 {
+        m_b1: m_b1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -203,7 +203,7 @@
         };
 
 
-        m_sga: m_y1 {
+        m_y1: m_y1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -213,7 +213,7 @@
                 &kp N1 &kp LS(Y) &kp RET>;
         };
 
-        m_sga: m_u1 {
+        m_y1: m_y1  {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -222,7 +222,7 @@
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
                 &kp N1 &kp LS(U) &kp RET>;
         };
-        m_sga: m_i1 {
+        m_i1: m_i1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -232,7 +232,7 @@
                 &kp N1 &kp LS(i) &kp RET>;
         };
 
-        m_sga: m_o1 {
+        m_o1: m_o1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -241,7 +241,7 @@
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
                 &kp N1 &kp LS(o) &kp RET>;;
         };
-        m_sga: m_p1 {
+        m_p1: m_p1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -251,7 +251,7 @@
                 &kp N1 &kp LS(p) &kp RET>;
         };
 
-        m_sga: m_p2 {
+        m_p2: m_p2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -261,7 +261,7 @@
                 &kp N2 &kp LS(p) &kp RET>;
         };
 
-        m_sga: m_h1 {
+        m_h1: m_h1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -271,7 +271,7 @@
                 &kp N1 &kp LS(H) &kp RET>;
         };
 
-        m_sga: m_j1 {
+        m_j1: m_j1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -280,7 +280,7 @@
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
                 &kp N1 &kp LS(J) &kp RET>;
         };
-        m_sga: m_k1 {
+        m_k1: m_k1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -290,7 +290,7 @@
                 &kp N1 &kp LS(K) &kp RET>;
         };
 
-        m_sga: m_l1 {
+        m_l1: m_l1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -299,7 +299,7 @@
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
                 &kp N1 &kp LS(L) &kp RET>;;
         };
-        m_sga: m_semi1 {
+        m_semi1: m_semi1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -308,7 +308,7 @@
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
                 &kp N1 &kp LS(L) &kp LS(L) &kp RET>;
         };
-        m_sga: m_n1 {
+        m_n1: m_n1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -318,7 +318,7 @@
                 &kp N1 &kp LS(N) &kp RET>;
         };
 
-        m_sga: m_m1 {
+        m_m1: m_m1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -327,7 +327,7 @@
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
                 &kp N1 &kp LS(M) &kp RET>;
         };
-        m_sga: m_comma1 {
+        m_comma1: m_comma1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -337,7 +337,7 @@
                 &kp N1 &kp LS(M) &kp LS(M) &kp RET>;
         };
 
-        m_sga: m_dot1 {
+        m_dot1: m_dot1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -346,7 +346,7 @@
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
                 &kp N1 &kp LS(M) &kp LS(M) &kp LS(M) &kp RET>;;
         };
-        m_sga: m_slash1 {
+        m_slash1: m_slash1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
