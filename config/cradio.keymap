@@ -42,6 +42,7 @@
 
         m_q1: m_q1 {
             compatible = "zmk,behavior-macro";
+            display-name = "PQS";
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
