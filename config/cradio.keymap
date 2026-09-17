@@ -87,7 +87,7 @@
             tap-ms = <5>;
             bindings = <&macro_tap
                 &kp TILDE &kp LS(A) &kp LS(P) &kp LS(N) &kp DOT 
-                &kp N1 &kp N2 &kp N2 &kp N5 &kp RET;>
+                &kp N1 &kp N2 &kp N2 &kp N5 &kp RET>;
         };
 
         m_a1: m_a1 {
@@ -162,7 +162,7 @@
                 &kp N2 &kp N4 &kp N9 &kp RET>;
         };
 
-        m_sga: m_x1 {
+        m_x1: m_x1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -213,7 +213,7 @@
                 &kp N1 &kp LS(Y) &kp RET>;
         };
 
-        m_y1: m_y1  {
+        m_u1: m_u1  {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
@@ -229,7 +229,7 @@
             tap-ms = <5>;
             bindings = <&macro_tap
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
-                &kp N1 &kp LS(i) &kp RET>;
+                &kp N1 &kp LS(I) &kp RET>;
         };
 
         m_o1: m_o1 {
@@ -239,7 +239,7 @@
             tap-ms = <5>;
             bindings = <&macro_tap
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
-                &kp N1 &kp LS(o) &kp RET>;
+                &kp N1 &kp LS(O) &kp RET>;
         };
         m_p1: m_p1 {
             compatible = "zmk,behavior-macro";
@@ -248,7 +248,7 @@
             tap-ms = <5>;
             bindings = <&macro_tap
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
-                &kp N1 &kp LS(p) &kp RET>;
+                &kp N1 &kp LS(P) &kp RET>;
         };
 
         m_p2: m_p2 {
@@ -258,7 +258,7 @@
             tap-ms = <5>;
             bindings = <&macro_tap
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
-                &kp N2 &kp LS(p) &kp RET>;
+                &kp N2 &kp LS(P) &kp RET>;
         };
 
         m_h1: m_h1 {
@@ -353,7 +353,7 @@
             tap-ms = <5>;
             bindings = <&macro_tap
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
-                &kp N1 &kp &kp LS(M) &kp LS(M) &kp LS(M) &kp LS(M) &kp RET>;
+                &kp N1 &kp LS(M) &kp LS(M) &kp LS(M) &kp LS(M) &kp RET>;
         };
     };
 
@@ -392,7 +392,7 @@
             bindings = <
 &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6       &kp F7      &kp F8  &kp F9  &kp F10
 &kp F11       &kp F12       &m_sga        &m_rfid       &bootloader     &bootloader  &trans      &trans  &trans  &kp PRINTSCREEN
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &SYSREQ       &trans      &trans  &trans  &kp BSLH
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp SYSREQ       &trans      &trans  &trans  &kp BSLH
                                           &sys_reset    &trans          &trans       &bt BT_CLR
             >;
         };
