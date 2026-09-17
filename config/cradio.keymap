@@ -67,7 +67,7 @@
 &kp LBRC                              &kp RBRC  &kp LBKT  &kp RBKT       &kp TILDE    &kp EQUAL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL    &kp DOUBLE_QUOTES
 &kp F19                               &kp F20   &kp F24   &kp F22        &kp F23      &kp LEFT_ARROW  &kp DOWN              &kp UP                 &kp RIGHT  &kp SQT
 &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp HOME  &kp END   &to 4          &tog 4       &kp KP_MINUS    &kp KP_PLUS           &kp UNDERSCORE         &kp GRAVE  &kp BSLH
-                                                          &kp &trans     &trans       &trans          &caps_word
+                                                          &trans     &trans       &trans          &caps_word
             >;
         };
 
