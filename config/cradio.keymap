@@ -239,7 +239,7 @@
             tap-ms = <5>;
             bindings = <&macro_tap
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
-                &kp N1 &kp LS(o) &kp RET>;;
+                &kp N1 &kp LS(o) &kp RET>;
         };
         m_p1: m_p1 {
             compatible = "zmk,behavior-macro";
@@ -297,7 +297,7 @@
             tap-ms = <5>;
             bindings = <&macro_tap
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
-                &kp N1 &kp LS(L) &kp RET>;;
+                &kp N1 &kp LS(L) &kp RET>;
         };
         m_semi1: m_semi1 {
             compatible = "zmk,behavior-macro";
@@ -344,7 +344,7 @@
             tap-ms = <5>;
             bindings = <&macro_tap
                 &kp TILDE &kp LS(R) &kp LS(F) &kp LS(I) &kp LS(D) &kp DOT
-                &kp N1 &kp LS(M) &kp LS(M) &kp LS(M) &kp RET>;;
+                &kp N1 &kp LS(M) &kp LS(M) &kp LS(M) &kp RET>;
         };
         m_slash1: m_slash1 {
             compatible = "zmk,behavior-macro";
