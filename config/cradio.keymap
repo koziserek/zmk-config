@@ -559,7 +559,7 @@
             bindings = <
 &m_q2    &m_w2     &m_e2     &m_r2         &m_t2                 &m_y1      &m_u1        &m_i1     &m_o1      &m_p2 
 &m_a2    &m_s2    &m_d2      &m_f2         &m_g2                 &m_h1      &m_j1        &m_k1     &m_l1      &m_semi1
-&m_z2  &m_x1 &m_c2  &m_v2  &m_b2                                 &m_n1  &m_m1  &m_comma1     &m_dot1     &m_slash1
+&m_z2    &m_x2 &m_c2  &m_v2  &m_b2                               &m_n1  &m_m1  &m_comma1     &m_dot1     &m_slash1
                      &trans  &trans    &trans  &trans
             >;
         };
